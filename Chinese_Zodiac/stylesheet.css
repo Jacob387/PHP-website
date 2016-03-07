@@ -1,0 +1,134 @@
+
+
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+$fontstack: "ff-din-web-pro-1","ff-din-web-pro-2",sans-serif;
+$hmargin:   70px;
+$vmargin:   20px;
+
+html {
+	text-align: middle; }
+body {
+    background-image: url("http://generaljohnstrickermslibrary.pbworks.com/f/1330012625/red_dragon.JPG");
+     }
+#header { 
+	clear: center; 
+    text-align: center; 
+}
+h1, h2, h3, h4 {
+    font-family: "Lato", serif;
+    color: #b58900;
+}
+p, a, li, form {
+    font-family: "Lato", serif;
+    font-size: 16px;
+}
+p, li, form {
+    color: #586e75;
+}
+a:link {
+    color: #268bd2;
+}
+a:visited {
+    color: #586e75;
+}
+#nav_text {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #000000;
+}
+a.navlink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    text-align: left; 
+    color:  #FFD119;
+    text-decoration: none;
+    font-family: "Lato", serif;
+    font-size: 18px;
+}
+a:hover.navlink {
+    color: #eee8d5;
+}
+
+/* highlighting */
+::selection {
+    color: #fdf6e3;;
+    background: #FF5E99;}
+::-moz-selection {
+    color: #fdf6e3;;
+    background: #FF5E99;}
+
+.error_text {
+    color: #dc322f;
+    font-weight: bold;
+}
+
+#midblock { }
+#nav_buttons { 
+	float: left;
+	width: 220px; }
+#dynamic_content { 
+	margin-left: 220px; }
+#footer { 
+    clear: both;
+    position: relative;
+    height: 3em;
+    margin-top: 3em;
+    text-align: center;
+
+}
+
+.nav_button {
+    cursor: pointer;
+    width: 180px;
+    color: #586e75;
+    background-color: #93a1a1;
+    font-family: "Lato", serif;
+    font-size: 16px;
+    font-color: #FFD119;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.nav_button:hover {
+    color: #eee8d5;
+}
+
+/*Form handling*/
+label{
+    display: inline-block;
+    float: center;
+    clear: left;
+    width: 250px;
+    /*height: 30px;*/
+    text-align: middle;
+    font-family: "Lato", serif;
+    font-size: 16px;
+}
+input, select, textarea {
+  display: inline-block;
+  float: left;
+}
